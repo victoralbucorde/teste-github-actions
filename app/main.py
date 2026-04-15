@@ -1,7 +1,7 @@
 import os
 from fastapi import FastAPI
 from fastapi.responses import JSONResponse
-
+# Teste
 app = FastAPI(title="Hello World Backend", version="1.0.0")
 
 APP_VERSION = os.getenv("APP_VERSION", "dev")
