@@ -30,11 +30,11 @@ spec:
                   fieldPath: metadata.labels['app']
           resources:
             requests:
-              cpu: "50m"
-              memory: "64Mi"
+              cpu: "1024m"
+              memory: "512Mi"
             limits:
-              cpu: "200m"
-              memory: "128Mi"
+              cpu: "2048m"
+              memory: "1024Mi"
           livenessProbe:
             httpGet:
               path: /health
