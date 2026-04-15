@@ -6,4 +6,4 @@ __pycache__/
 venv/
 dist/
 *.egg-info/
-.idea
+ .idea
