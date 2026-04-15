@@ -18,7 +18,7 @@ spec:
       containers:
         - name: hello-world
           # CI pipeline substitui a tag a cada build
-          image: ghcr.io/victoralbucorde/hello-world-backend:latest
+          image: ghcr.io/victoralbucorde/teste-github-actions:sha-2350f78
           ports:
             - containerPort: 8080
           env:
