@@ -6,4 +6,5 @@ __pycache__/
 venv/
 dist/
 *.egg-info/
- .idea
+.idea/
+.DS_STORE
